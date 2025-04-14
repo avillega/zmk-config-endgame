@@ -1,0 +1,8 @@
+file_format: "1"
+id: endgame
+name: TheEndgame
+type: shield
+url: https://github.com/OldMan6955/TheEndgame2024
+requires: [zero_d]
+features:
+  - keys
