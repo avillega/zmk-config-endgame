@@ -99,9 +99,9 @@
         hands_down_nue {
             label = "NUE";
             bindings = <
-         &kp W  &kp F  &kp M          &kp P          &kp V           &kp J         &kp DOT      &kp Q        &kp SQT  &kp Z
+         &kp W  &kp F  &kp M          &kp P          &kp V           &kp UNDER     &kp DOT      &kp Q        &kp SQT  &kp Z
          &kp R  &kp S  &hml LCTRL N   &hml LGUI T    &kp B           &kp COMMA     &hmr RGUI A  &hmr RCTRL E &kp I    &kp H
-         &kp X  &kp C  &kp L          &kp D          &kp G           &kp UNDER     &kp U        &kp O        &kp Y    &kp K
+         &kp X  &kp C  &kp L          &kp D          &kp G           &kp J         &kp U        &kp O        &kp Y    &kp K
          &none                        &hml LALT TAB  &lt SYM SPACE   &lt NAV RET   &sk_shft                           &to BASE
             >;
         };
