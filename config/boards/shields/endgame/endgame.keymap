@@ -70,7 +70,7 @@
         combo_bksp {
             timeout-ms = <50>;
             key-positions = <RT3 RT2>;
-            bindings = <&kp BSPC>;
+            bindings = <&kp LA(BSPC)>;
         };
     };
 
