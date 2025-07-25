@@ -56,6 +56,14 @@
 
             mods = <(MOD_LSFT | MOD_RSFT)>;
         };
+
+        bspc: sticky_shift_caps_word {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp LA(BSPC)>, <&kp BSPC>;
+
+            mods = <(MOD_LALT | MOD_RSFT)>;
+        };
     };
 
     combos {
@@ -70,7 +78,7 @@
         combo_bksp {
             timeout-ms = <50>;
             key-positions = <RT3 RT2>;
-            bindings = <&kp LA(BSPC)>;
+            bindings = <&bspc>;
         };
     };
 
